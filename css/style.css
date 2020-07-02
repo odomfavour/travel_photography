@@ -1,52 +1,4 @@
 
-.intro-section {
-  margin-top: 100px;
-}
-.intro-part, .no-margin {
-  margin:0 !important;
-  padding: 0 !important;
-}
-
-.image-box {
- background: url('../img/slide.png') no-repeat;
- background-size: cover;
- background-position: center;
- height: 645px;
-}
-
-.text-box {
- height: 645px;
- padding: 120px 110px 120px 30px;
-  background: #45a29e;
-  margin: auto 0;
-  color: #fff;
-  font-family: Roboto;
-}
-
-.text-box p {
-  font-size: 18px;
-}
-
-
-.text-box .description {
-  padding: 40px 0;
-  font-size: 24px;
-}
-
-
-
-
-
-
-input {
-  height: 42px !important;
-  width: 354px !important;
-  border: 2px solid #45a29e !important;
-  max-width: 100%;
-}
-
-
-
 
 body {
   overflow-x: hidden;
@@ -104,18 +56,48 @@ body {
   margin: 0 auto 40px auto;
 }
 
-/* .image-box {
-  width: 335px;
-  height: 507px;
-} */
 
-/* .text-box {
-  width: 340px;
-  height: 382px;
+.intro-section {
+  margin-top: 100px;
+}
+.intro-part, .no-margin {
+  margin:0 !important;
+  padding: 0 !important;
+}
+
+.image-box {
+ background: url('../img/slide.png') no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 645px;
+}
+
+.text-box {
+ height: 645px;
+ padding: 120px 110px 120px 30px;
   background: #45a29e;
   margin: auto 0;
   color: #fff;
-} */
+  font-family: Roboto;
+}
+
+.text-box p {
+  font-size: 18px;
+}
+
+
+.text-box .description {
+  padding: 40px 0;
+  font-size: 24px;
+}
+
+input {
+  height: 42px !important;
+  width: 354px !important;
+  border: 2px solid #fff !important;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
 
 .slides {
   margin: 0;
@@ -130,34 +112,7 @@ body {
    margin: 100px 0;
 }
 
-/* .section-title h1::before {
-  display: block;
-  content: "";
-  height: 19px;
-  width: 18px;
-  background: #1ebba3;
-}
 
-.section-title h1::after {
-  display: block;
-  content: "";
-  height: 19px;
-  width: 18px;
-  background: #1ebba3;
-  margin-left: 85%;
-} */
-
-
-
-/* .text-box::after {
-    width: 41px;
-    height: 46px;
-    display: block;
-    content: "";
-    background: #45A29E;
-    margin-left: 100%;
-    margin-top: 100px;
-  } */
 
 .portfolio {
   height: 300px;
@@ -270,6 +225,16 @@ footer ul {
 footer ul li {
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 footer .navbar-brand {
