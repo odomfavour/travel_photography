@@ -15,6 +15,27 @@ body {
   background: rgba(0, 0, 0, 0.12) !important;
 }
 
+.navBar   {
+   background: rgba(0, 0, 0, 0.12) !important;
+}
+
+.navTransparent {
+  color: #000 !important;
+  background: #fff !important;
+}
+
+.navTransparent .nav-link {
+  color: #000 !important;
+}
+
+.navTransparent .nav-link:hover {
+  color: #1ebba3 !important;
+}
+
+.navbar-toggler {
+  background: #1ebba3 !important;
+}
+
 .navbar-brand {
   font-size: 24px;
   color: #66fcf1 !important;
